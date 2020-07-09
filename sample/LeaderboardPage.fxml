@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="mainframe" prefHeight="500.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LeaderboardPageController">
+   <children>
+      <Button fx:id="backbutton" layoutX="131.0" layoutY="399.0" mnemonicParsing="false" onAction="#goBackToMainPage" text="Back" />
+      <Label fx:id="score3" layoutX="113.0" layoutY="235.0" text="Score"/>
+      <Label fx:id="name3" layoutX="65.0" layoutY="235.0" text="Name"/>
+      <Label fx:id="score2" layoutX="113.0" layoutY="218.0" text="Score"/>
+      <Label fx:id="name2" layoutX="65.0" layoutY="218.0" text="Name"/>
+      <Label fx:id="score1" layoutX="113.0" layoutY="201.0" text="Score"/>
+      <Label fx:id="name1" layoutX="65.0" layoutY="201.0" text="Name"/>
+      <Label fx:id="name4" layoutX="65.0" layoutY="250.0" text="Name"/>
+      <Label fx:id="name5" layoutX="65.0" layoutY="268.0" text="Name"/>
+      <Label fx:id="name6" layoutX="65.0" layoutY="285.0" text="Name"/>
+      <Label fx:id="name7" layoutX="65.0" layoutY="300.0" text="Name"/>
+      <Label fx:id="name8" layoutX="65.0" layoutY="317.0" text="Name"/>
+      <Label fx:id="name9" layoutX="65.0" layoutY="334.0" text="Name"/>
+      <Label fx:id="name10" layoutX="65.0" layoutY="351.0" text="Name"/>
+      <Label fx:id="score4" layoutX="113.0" layoutY="250.0" text="Score"/>
+      <Label fx:id="score5" layoutX="113.0" layoutY="268.0" text="Score"/>
+      <Label fx:id="score6" layoutX="113.0" layoutY="285.0" text="Score"/>
+      <Label fx:id="score7" layoutX="113.0" layoutY="300.0" text="Score"/>
+      <Label fx:id="score8" layoutX="113.0" layoutY="317.0" text="Score"/>
+      <Label fx:id="score9" layoutX="113.0" layoutY="334.0" text="Score"/>
+      <Label fx:id="score10" layoutX="113.0" layoutY="351.0" text="Score"/>
+      <Label fx:id="date1" layoutX="166.0" layoutY="201.0" text="Date"/>
+      <Label fx:id="date2" layoutX="166.0" layoutY="218.0" text="Date"/>
+      <Label fx:id="date3" layoutX="166.0" layoutY="235.0" text="Date"/>
+      <Label fx:id="date4" layoutX="166.0" layoutY="250.0" text="Date"/>
+      <Label fx:id="date5" layoutX="166.0" layoutY="268.0" text="Date"/>
+      <Label fx:id="date6" layoutX="166.0" layoutY="285.0" text="Date"/>
+      <Label fx:id="date7" layoutX="166.0" layoutY="300.0" text="Date"/>
+      <Label fx:id="date8" layoutX="166.0" layoutY="317.0" text="Date"/>
+      <Label fx:id="date9" layoutX="166.0" layoutY="334.0" text="Date"/>
+      <Label fx:id="date10" layoutX="166.0" layoutY="351.0" text="Date"/>
+   </children>
+</AnchorPane>

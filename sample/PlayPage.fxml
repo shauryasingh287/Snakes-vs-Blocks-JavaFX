@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="mainframe" prefHeight="500.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PlayPageController">
+   <children>
+      <Button fx:id="resume" layoutX="121.0" layoutY="393.0" mnemonicParsing="false" onAction="#resumeGame" text="Resume" />
+      <Button fx:id="start" layoutX="131.0" layoutY="306.0" mnemonicParsing="false" onAction="#startGame" text="Start" />
+   </children>
+</AnchorPane>
